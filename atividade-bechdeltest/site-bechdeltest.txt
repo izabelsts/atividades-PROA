@@ -1,0 +1,14 @@
+O site bechdeltest.com tem uma função muito clara: mostrar quais filmes passam no teste de Bechdel, ou seja: (1) têm 2 personagens femininos ou mais (com nome e relevância na trama), (2) que falam uma com a outra e (3) o assunto de que falam não é homem.
+
+1) A função desse site é bem executada?
+R: Sim. Rapidamente conseguimos ter acesso a lista de fimes e pelos ícones já sabemos se eles passaram ou não pelo teste. 
+
+2) Você encontrou algum fime interessante que passe nesse teste? Informe.
+R: Enola Homes e Esquadrão Suicida
+
+3) Você encontrou algum fime interessante que não passe nesse teste? Informe.
+R: Now You See Me (Truque de Mestre)
+
+4) Visualmente o site é fraco. Isso é uma afirmação.
+Diga como o site pode ser melhorado, focando sempre na experiência do usuário.
+R: Primeiramente, uma melhor organização das informações. Separações melhores que ajudariam identificar cada informação, como os critérios do teste, sobre o teste, atividades recentes, etc. Segundo, melhorar a distribuíção. Percebe-se um vazio no lado direito da página, deixando o lado esquerdo totalmente sobrecarregado, com anúncio inclusive. Em terceiro, uma pequena alteração no tamanho da fonte seria válido, para melhor leitura. E por último, o mais importante: a função de busca. Sim, ela existe, mas com muita dificuldade lá no final da página, e de uma forma muito "escondida". Seria muito mais simples e prático para o usuário uma ferramenta de busca mais nítida e de fácil acesso para a busca dos filmes. 
