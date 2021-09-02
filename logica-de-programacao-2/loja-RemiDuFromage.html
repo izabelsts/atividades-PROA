@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 13</title>
+
+    <script>
+        const preco = 18.230;
+        alert("O preço capacete é: " + preco);
+        var numParcela = parseInt(prompt("Digite o número de parcelas, com limite de até 15"));
+
+        if (numParcela > 15 || numParcela <= 0) {
+            document.write("Erro. Digite um número menor que 15.");
+        }
+
+        else { 
+        var loop = 1;
+        while(loop != numParcela + 1){
+        var parcelas = preco / numParcela;
+        document.write(loop + "° Parcela: " + parcelas.toFixed(2) + "<br>");
+        loop++
+    }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

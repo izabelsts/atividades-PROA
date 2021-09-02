@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 11</title>
+
+    <script>
+        var n1 = Number(prompt ("Digite um número: "));
+        var n2 = Number(prompt ("Digite outro número: "));
+        var n3 = Number(prompt ("Digite mais número: "));
+        var n4 = Number(prompt ("Digite mais um: "));
+        var soma = 0
+        var media;
+    
+        if (n1 > 0 && n1 < 10) {
+            soma = n1 + soma;
+        }
+    
+        if (n2 > 0 && n2 < 10) {
+            soma = n2 + soma;
+        }
+
+        if (n3 > 0 && n3 < 10) {
+            soma = n3 + soma;
+        }
+    
+        if (n4 > 0 && n4 < 10) {
+            soma = n4 + soma;
+        }
+    
+        media = soma / 4;
+    
+        if (media > 5) {
+            document.write ("A média é " + media + ". VOCÊ PASSOU NO TESTE");
+        }
+    
+        else if (media < 5) {
+            document.write ("A média é " + media + "Tente novamente");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
