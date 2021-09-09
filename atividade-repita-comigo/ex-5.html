@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 5</title>
+    <script>
+        var contador = 0;
+        var soma = 0;
+        var inicio = Number(prompt ("Informe um número de início: "));
+        var fim = Number(prompt ("Informe o número final: "));
+        var media;
+
+        while (inicio <= fim) {
+            contador = contador + 1;
+            soma = soma + inicio;
+            inicio++;
+        }
+
+        media = soma/contador;
+     
+        document.write ("A média aritmética dos números é: " + media);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
