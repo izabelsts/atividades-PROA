@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tá quente. Muito quente!</title>
+    <script>
+        function converterCelsiusFahrenheit(){
+            var celsius = prompt("Informe a temperatura em Celsius: ");
+            var resultado = (celsius * 1.8) + 32;
+
+            document.write(celsius+"°C é igual a "+resultado+"°F"+"</br>");
+        }
+
+        function converterFahrenheitCelsius(){
+            var fahrenheit = prompt("Informe a temperatura em Fahrenheit: ");
+            var resultado = (fahrenheit - 32) / 1.8;
+
+            document.write(fahrenheit+"°F é igual a "+resultado+"°C");
+        }
+
+        converterCelsiusFahrenheit();
+        converterFahrenheitCelsius();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

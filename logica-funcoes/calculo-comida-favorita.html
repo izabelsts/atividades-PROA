@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanta fome a gente tem?</title>
+    <script>
+        function calcularMeuLanche(idade, quantidade_por_dia){
+            var idade = idade;
+            idade = parseInt(idade);
+            var quantidade = quantidade_por_dia;
+            quantidade = parseInt(quantidade);
+            var resultado = (idade*365) * quantidade;
+
+            document.write("Você precisará de "+resultado+" da sua comida favorita para durar até a idade "+idade+"</br>");
+        }
+
+        calcularMeuLanche(60, 1);
+        calcularMeuLanche(100, 2);
+        calcularMeuLanche(10, 1);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
