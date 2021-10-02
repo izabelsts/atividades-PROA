@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 15</title>
+    <script>
+        const preco = 18.190;
+        alert("O preço capacete é: " + preco);
+        var numParcela = parseInt(prompt("Digite o número de parcelas, com limite de até 15"));
+
+        if (numParcela > 15 || numParcela <= 0) {
+            alert("Erro. Digite um número menor que 15.");
+        }
+
+        else { 
+        var loop = 1;
+        while(loop != numParcela + 1){
+        var parcelas = preco / numParcela;
+        document.write(loop + "° Parcela: " + parcelas.toFixed(2) + "</br>");
+        loop++
+    }
+        }
+        /*A Loja FabiDRONES está promovendo uma promoção onde cada drone artesanal custa R$8.190 e pode ser pago em até 15 vezes sem juros. Crie um programa onde o usuário possa informar o valor parcelas que deseja pagar e exiba o valor de cada parcela.*/
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

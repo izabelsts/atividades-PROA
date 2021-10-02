@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+
+<script>
+    var primeiroValor = prompt ("Digite um número: ");
+    var segundoValor = prompt ("Digite mais um número: ");
+    var terceiroValor = prompt ("Agora outro número: ");
+
+    if (primeiroValor == segundoValor || segundoValor == terceiroValor || primeiroValor == terceiroValor){
+        alert("Erro: você digitou números iguais. Tente novamente.");
+    }
+
+    else if (primeiroValor > segundoValor && primeiroValor > terceiroValor) {
+        alert("O número " + primeiroValor + " é maior");
+    }
+
+    else if (segundoValor > primeiroValor && segundoValor > terceiroValor) {
+        alert("O número " + segundoValor + " é maior");
+    }
+
+    else if (terceiroValor > primeiroValor && terceiroValor > segundoValor) {
+        alert("O número " + terceiroValor + " é maior");
+    } 
+
+    window.location.reload(); 
+
+    /*Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.*/
+</script>
+
+<body>
+
+</body>
+</html>

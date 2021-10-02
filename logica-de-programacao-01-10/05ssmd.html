@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+    <script>
+        var num1=Number(prompt("Informe um número: "));    
+        var num2=Number(prompt("Informe outro número: "));
+
+        function inicio() {
+
+            var escolha = parseInt(prompt("---- Selecione uma opção ----"+"\n"+"1.) Subtrair"+"\n"+"2.) Somar"+"\n"+"3.) Multiplicar"+"\n"+"4.) Dividir"+"\n"+"5.) Sair"));
+
+            if (escolha === 1) {
+                subtrair();
+            } else if (escolha === 2) {
+                somar();
+            } else if (escolha === 3) {
+                multiplicar();
+            } else if (escolha === 4) {
+                dividir();
+            } else if (escolha === 5){
+                sair();
+            }
+             else {
+                erro();
+            }
+        }
+
+
+        function subtrair() {
+            var sub;
+            sub=num1-num2;
+            alert(num1+" - "+num2+" = "+sub);
+            inicio();
+        }
+
+        function somar() {
+            var som;
+            som=(num1+num2);
+            alert(num1+" + "+num2+" = "+som);
+            inicio();
+        }
+
+        function multiplicar() {
+            var mult;
+            mult=num1*num2;
+            alert(num1+" x "+num2+" = "+mult);
+            inicio();
+        }
+
+        function dividir() {
+            var div;
+            div=num1/num2;
+            alert(num1+" / "+num2+" = "+div);
+            inicio();
+        }
+
+        function sair() {
+            var confirma = confirm('Você deseja sair?');
+            if (confirma) {
+                window.close();
+            } else {
+                inicio();
+            }
+        }
+
+        function erro() {
+            alert('Por favor, informe um número entre 1 e 4');
+            inicio();
+        }
+
+        inicio();
+
+        /*Faça um programa que receba dois números reais e mostre um menu de opções (Subtrair, Somar, Multiplicar e Dividir), realizando a operação de acordo com a opção escolhida no menu e mostrando o resultado.*/
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
