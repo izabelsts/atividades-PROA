@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevador</title>
+</head>
+<body>
+    <script type="text/javascript">
+        class Elevador {
+            constructor(andar_atual, total_andares, capacidade_pessoas, qtd_pessoas){
+                this.andar_atual = andar_atual;
+                this.total_andares = total_andares;
+                this.capacidade_pessoas = capacidade_pessoas;
+                this.qtd_pessoas = qtd_pessoas;
+            }
+
+            entra(){
+                if(qtd_pessoas < capacidade_pessoas){
+                    qtd_pessoas++;
+                }
+
+                else{
+                    return;
+                }
+            }
+
+            sair(){
+                if(qtd_pessoas >= 0){
+                    qtd_pessoas--;
+                    
+                }
+
+                else{
+                    return;
+                }
+            }
+
+            sobe(){
+                if(andar_atual < total_andares){
+                    andar_atual++;
+                }
+
+                else{
+                    return;
+                }
+            }
+
+            desce(){
+                if(andar_atual > 0){
+                    andar_atual--;
+                }
+
+                else{
+                    return;
+                }
+            }
+
+        }
+
+        var sp = new Elevador(0, 15, 4, 6);
+    </script>
+</body>
+</html>
